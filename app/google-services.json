@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778828564545",
+    "project_id": "foodon-f8ee9",
+    "storage_bucket": "foodon-f8ee9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778828564545:android:ef9409a0339391e5badec0",
+        "android_client_info": {
+          "package_name": "com.foodon.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778828564545-ojuq8povck6o798gkqidkv39at2d18qb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAslfdATGnLwYJleCzyS8uQ-bi1IOTfviw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778828564545-ojuq8povck6o798gkqidkv39at2d18qb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
