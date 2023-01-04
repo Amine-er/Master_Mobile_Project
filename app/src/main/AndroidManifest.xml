@@ -24,6 +24,27 @@
         tools:replace="android:theme"
         tools:targetApi="31">
         <activity
+            android:name=".Chefsendotp"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ChefForgotPassword"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ChefFoodPanel_BottomNavigation"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ChefVerifyPhone"
             android:exported="false">
             <meta-data
