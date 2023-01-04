@@ -201,9 +201,11 @@ public class ChefRegistration extends AppCompatActivity {
 
                                                     }
                                                 });
-
                                     }
                                 });
+                            }else{
+                                mDialog.dismiss();
+                                ReusableCodeForAll.ShowAlert(ChefRegistration.this,"Error",task.getException().getMessage());
                             }
                         }
                     });
@@ -211,6 +213,23 @@ public class ChefRegistration extends AppCompatActivity {
 //
             }
         });
+        Emaill.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(ChefRegistration.this,Cheflogin.class));
+                finish();
+            }
+        });
+        Phone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ChefRegistration.this,Chefloginphone.class));
+                finish();
+            }
+        });
+
+
 
     }
 

@@ -39,10 +39,10 @@ public class Chefloginphone extends AppCompatActivity {
             public void onClick(View v) {
 
                 number=num.getText().toString().trim();
-                String Phonenum = cpp.getSelectedCountryCodeWithPlus()+number;
+                String Phonenumber = cpp.getSelectedCountryCodeWithPlus()+number;
                 Intent b = new Intent(Chefloginphone.this,Chefsendotp.class);
 
-                b.putExtra("Phonenum",Phonenum);
+                b.putExtra("Phonenumber",Phonenumber);
                 startActivity(b);
                 finish();
 
