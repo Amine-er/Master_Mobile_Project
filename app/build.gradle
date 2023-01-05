@@ -47,6 +47,7 @@ dependencies {
     implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
     //implementation 'com.theartofdev.edmodo:android-image-cropper:2.3.+'
     implementation 'com.github.CanHub:Android-Image-Cropper:4.3.0' // solved
+    api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
     //implementation 'com.hbb20:ccp:2.3.1'
     implementation 'com.hbb20:ccp:2.6.1'
 
