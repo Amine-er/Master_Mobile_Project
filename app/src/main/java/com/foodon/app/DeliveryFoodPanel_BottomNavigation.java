@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.foodon.app.chefFoodPanel.ChefHomeFragment;
+import com.foodon.app.chefFoodPanel.ChefOrderFragment;
+import com.foodon.app.chefFoodPanel.ChefPendingOrderFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import com.foodon.app.deliveryFoodPanel.DeliveryPendingOrderFragment;
@@ -20,6 +23,14 @@ public class DeliveryFoodPanel_BottomNavigation extends AppCompatActivity implem
         setContentView(R.layout.activity_delivery_food_panel_bottom_navigation);
         BottomNavigationView navigationView = findViewById(R.id.delivery_bottom_navigation);
         navigationView.setOnNavigationItemSelectedListener(this);
+        String name = getIntent().getStringExtra("PAGE");
+        if(name!=null){
+            if (name.equalsIgnoreCase("DeliveryOrderpage")) {
+                loaddeliveryfragment(new DeliveryPendingOrderFragment());
+            }
+        }else {
+            loaddeliveryfragment(new DeliveryPendingOrderFragment());
+        }
 
     }
 
@@ -37,10 +48,10 @@ public class DeliveryFoodPanel_BottomNavigation extends AppCompatActivity implem
                 fragment=new DeliveryPendingOrderFragment();
                 break;
         }
-        return loadcheffragment(fragment);
+        return loaddeliveryfragment(fragment);
     }
 
-    private boolean loadcheffragment(Fragment fragment) {
+    private boolean loaddeliveryfragment(Fragment fragment) {
 
         if(fragment != null){
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_containerbott,fragment).commit();

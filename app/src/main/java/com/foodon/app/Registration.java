@@ -29,7 +29,7 @@ import java.util.HashMap;
 
 public class Registration extends AppCompatActivity {
 
-    String[] Maharashtra = {"Mumbai","Pune","Nashik"};
+    String[] Maharashtra = {"Mumbai","Pune","Nashik"};//city
     String[] Madhyapradesh = {"Bhopal","Indore","Ujjain"};
 
     TextInputLayout Fname,Lname,Email,Pass,cpass,mobileno,localaddress,area,pincode;
