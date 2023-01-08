@@ -31,8 +31,8 @@ import java.util.HashMap;
 
 
 public class ChefRegistration extends AppCompatActivity {
-    String[] Maharashtra = {"Mumbai","Pune","Nashik"};
-    String[] Madhyapradesh = {"Bhopal","Indore","Ujjain"};
+    String[] Maharashtra = {"Casablanca","El Jadida","Settat"};
+    String[] Madhyapradesh = {"Marrakech","Essaouira","Safi"};
 
     TextInputLayout Fname,Lname,Email,Pass,cpass,mobileno,houseno,area,pincode;
     Spinner Statespin,Cityspin;
@@ -73,7 +73,7 @@ public class ChefRegistration extends AppCompatActivity {
 
                 Object value = parent.getItemAtPosition(position);
                 statee = value.toString().trim();
-                if(statee.equals("Maharashtra")){
+                if(statee.equals("Casablanca-Settat")){
                     ArrayList<String> list = new ArrayList<>();
                     for (String cities : Maharashtra){
                         list.add(cities);
@@ -81,7 +81,7 @@ public class ChefRegistration extends AppCompatActivity {
                     ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(ChefRegistration.this,android.R.layout.simple_spinner_item,list);
                     Cityspin.setAdapter(arrayAdapter);
                 }
-                if(statee.equals("Madhyapradesh")){
+                if(statee.equals("Marrakech-Safi")){
                     ArrayList<String> list = new ArrayList<>();
                     for (String cities : Madhyapradesh){
                         list.add(cities);
