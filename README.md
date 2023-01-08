@@ -11,6 +11,9 @@ La nécessité de se faire livrer un repas de n’importe quel restaurant sans b
 La nécessité de se faire livrer un repas de n’importe quel restaurant sans bouger de chez soi est devenue pressante.
 Nos modes de vie actuelle nous poussent à la consommation rapide. Notre Application a été développé dans le but de faciliter ce mode de vie.
 
+## Les outils utilises
+<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> </p>
+
 ## Diagramme de cas d'utilisation pour le commercial
 ![Use case commerce](https://user-images.githubusercontent.com/60274428/199039629-697a6d83-078c-4d77-bdc7-1c7a4ac11b3a.png)
 ## Diagramme de cas d'utilisation pour le client
