@@ -59,7 +59,7 @@ git clone https://github.com/Amine-er/Master_Mobile_Project/tree/master
 - [Errabi Mohamed Amine](https://github.com/Amine-er)
 - [Oubalout Saida](https://github.com/saidaoub)
 - [Ouaziz Khadija](https://github.com/khadijaouaziz)
-- [Charaf Faouzi]
+- [Charaf Faouzi] (https://github.com/achr-faou) 
 
 ## Contributing
 Les demandes d'extraction sont les bienvenues. Pour les modifications majeures, veuillez d'abord ouvrir un problème pour discuter de ce que vous souhaitez modifier.
